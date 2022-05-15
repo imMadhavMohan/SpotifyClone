@@ -23,22 +23,22 @@ let isPlaying = false;
 let prevSong = document.querySelector('.previ');
 let nextSong = document.querySelector('.nexti');
 
-let songs = [ {songName:"Khushi jab bi", filePath:"s0.mp3", coverPath:"song0.jpg"},
-              {songName:"Dil tod ke", filePath:"s1.mp3", coverPath:"song1.jpg"},
-              {songName:"Filhal", filePath:"s2.mp3", coverPath:"song2.jpg"},
-              {songName:"Lut gye", filePath:"s3.mp3", coverPath:"song3.jpg"},
-              {songName:"Nazm-nazm sa", filePath:"s4.mp3", coverPath:"song4.jpg"},
-              {songName:"Teri mitti", filePath:"s5.mp3", coverPath:"song5.jpg"},
-              {songName:"Zara si dil", filePath:"s6.mp3", coverPath:"song6.jpg"},
-              {songName:"Tuje kitna chahne lage", filePath:"s7.mp3", coverPath:"song7.jpg"},
-              {songName:"Pachtaoge", filePath:"s8.mp3", coverPath:"song8.jpg"},
-              {songName:"Main Jis Din Bhula", filePath:"s9.mp3", coverPath:"song9.jpg"},
-              {songName:"Janmo janam ka", filePath:"s10.mp3", coverPath:"song10.jpg"},
-              {songName:"Khud ko tere pas", filePath:"s11.mp3", coverPath:"song11.jpg"},
-              {songName:"Dil chahte ho kya jaan", filePath:"s12.mp3", coverPath:"song12.jpg"},
-              {songName:"Jay jay kara", filePath:"s13.mp3", coverPath:"song13.jpg"},
-              {songName:"Piya aye na", filePath:"s14.mp3", coverPath:"song14.jpg"},
-              {songName:"Raaz aankhein teri", filePath:"s15.mp3", coverPath:"song15.jpg"} ];
+let songs = [ {songName:"Khushi jab bi", filePath:"s0.mp3", coverPath:"Images/song0.jpg"},
+              {songName:"Dil tod ke", filePath:"s1.mp3", coverPath:"Images/song1.jpg"},
+              {songName:"Filhal", filePath:"s2.mp3", coverPath:"Images/song2.jpg"},
+              {songName:"Lut gye", filePath:"s3.mp3", coverPath:"Images/song3.jpg"},
+              {songName:"Nazm-nazm sa", filePath:"s4.mp3", coverPath:"Images/song4.jpg"},
+              {songName:"Teri mitti", filePath:"s5.mp3", coverPath:"Images/song5.jpg"},
+              {songName:"Zara si dil", filePath:"s6.mp3", coverPath:"Images/song6.jpg"},
+              {songName:"Tuje kitna chahne lage", filePath:"s7.mp3", coverPath:"Images/song7.jpg"},
+              {songName:"Pachtaoge", filePath:"s8.mp3", coverPath:"Images/song8.jpg"},
+              {songName:"Main Jis Din Bhula", filePath:"s9.mp3", coverPath:"Images/song9.jpg"},
+              {songName:"Janmo janam ka", filePath:"s10.mp3", coverPath:"Images/song10.jpg"},
+              {songName:"Khud ko tere pas", filePath:"s11.mp3", coverPath:"Images/song11.jpg"},
+              {songName:"Dil chahte ho kya jaan", filePath:"s12.mp3", coverPath:"Images/song12.jpg"},
+              {songName:"Jay jay kara", filePath:"s13.mp3", coverPath:"Images/song13.jpg"},
+              {songName:"Piya aye na", filePath:"s14.mp3", coverPath:"Images/song14.jpg"},
+              {songName:"Raaz aankhein teri", filePath:"s15.mp3", coverPath:"Images/song15.jpg"} ];
 
 // songItems.forEach((element, i)=>{ 
 //     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
@@ -60,13 +60,13 @@ setInterval(()=>{
 },3000);
 
 
-const playIcon = document.querySelector('.song-item ');
+// const playIcon = document.querySelector('.song-item ');
 
-console.log('hi');
+// console.log('hi');
 
-playIcon.addEventListener('click',(e)=>{
-  console.log(e.target);
-});
+// playIcon.addEventListener('click',(e)=>{
+//   console.log(e.target);
+// });
 
 // user timeSkip
 myProgress.addEventListener('change', seekTo); // call by fun
