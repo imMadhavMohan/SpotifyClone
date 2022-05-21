@@ -6,4 +6,4 @@ As the current song ends next one is played automatically or
 we can also traverse prev and next song, With the interactive Play-Pause icon,
 as music is paused the gif get disappears and again appears as the song is played.
 
-Link: https://voluble-dasik-5970d6.netlify.app/
+Link: https://peppy-queijadas-45342b.netlify.app
